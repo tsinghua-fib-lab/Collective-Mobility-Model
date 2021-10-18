@@ -11,4 +11,9 @@ The main.cpp is the source code of a c++ implementation. "main" function specifi
 The code is run and tested on Visual Studio 2012 platform. No external dependency or installation is needed. 
 
 ## How to run
-The code can run with "debug" and "release" features in Visual Studio platform. No input data is needed. The typical running time is 12 hours on a workstation with 40 cores of 3.6GHz Intel i7 processor for 20,000 epochs simulation.
+
+1) Please open a new project in Visual Studio 2012 platform, and import main.cpp as the source file.
+2) Specificy the model parameters of Rho_0, Alpha, N in main function.
+3) Run the code with "debug" or "release" function in Visual Studio platform. No input data is needed. 
+4) The output will be stored in a new created folder in current working path. "p[#epochs].dat" is the simulated urban population distribution.
+The typical running time is 12 hours on a workstation with 40 cores of 3.6GHz Intel i7 processor for 20,000 epochs simulation.
